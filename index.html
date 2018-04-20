@@ -3,7 +3,18 @@
 <head>
     <meta charset="utf-8">
     <title>MovieInfo</title>
-
+	
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.4.4/d3.min.js"></script>
+   
+    <script src="js/helper.js"></script>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places"></script>
+    
+    <meta name="viewport" content="width=device-width">
+	
     <meta name="viewport" content="width=device-width">
 </head>
 
@@ -28,11 +39,6 @@
                         </ul>
                     </div>
                 </nav>
-                <div id="aboutme" class='pink'>
-                    <h2>About Me</h2>
-                    <div id="pieChart" class="pie"></div>
-                </div>
-
                 <div id="drama" class='gray'>
                     <a name="drama"></a>
                     <h2>Drama</h2>
@@ -57,6 +63,29 @@
         <div id="top" class="top">
             <a href="#topOfPage" class="scrolltop">Scroll to top</a>
         </div>
+		<script src="js/movieInfo.js"></script>
+		
+		<script type="text/javascript">
+            
+            if (document.getElementsByClassName('flex-item').length === 0) {
+                document.getElementById('topContacts').style.display = 'none';
+            }
+            if (document.getElementsByTagName('h1').length === 0) {
+                document.getElementById('header').style.display = 'none';
+            }
+            if (document.getElementsByClassName('drama-entry').length === 0) {
+                document.getElementById('drama').style.backgroundColor = 'none';
+            }
+            if (document.getElementsByClassName('thriller-entry').length === 0) {
+                document.getElementById('thriller').style.display = 'none';
+            }
+            if (document.getElementsByClassName('action-entry').length === 0) {
+                document.getElementById('action').style.display = 'none';
+            }
+            if (document.getElementsByClassName('flex-item').length === 0) {
+                document.getElementById('letsConnect').style.display = 'none';
+            }
+        </script>
 </body>
 
 </html>
