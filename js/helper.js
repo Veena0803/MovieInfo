@@ -8,3 +8,11 @@ var HTMLtwitter = '<li class="flex-item"><span class="orange-text">twitter</span
 var HTMLgithub = '<li class="flex-item"><span class="orange-text">github</span><span class="white-text">%data%</span>';
 var HTMLblog = '<li class="flex-item"><span class="orange-text">blog</span><span class="white-text">%data%</span>';
 var HTMLlocation = '<li class="flex-item"><span class="orange-text">location</span><span class="white-text">%data%</span>';
+
+var HTMLdramaStart = '<div class="drama-entry"></div>';
+var HTMLmovieTitle = '<p><br>%data%</p>';
+var HTMLmovieBio = '<p><br>%data%</p><hr/>';
+
+var HTMLactionStart = '<div class="action-entry"></div>';
+
+var HTMLthrillerStart = '<div class="thriller-entry"></div>';
