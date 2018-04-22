@@ -34,7 +34,19 @@
 		  "bio": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son."
 	  },{
 		  "title": "Schindler's List",
-		  "bio": "In German-occupied Poland during World War II, Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazi Germans."
+		  "bio": "In German-occupied Poland during World War II, Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazi Germans." 
+	  },{
+		  "title": "Forrest Gump",
+		  "bio": "The presidencies of Kennedy and Johnson, Vietnam, Watergate, and other history unfold through the perspective of an Alabama man with an IQ of 75." 
+	  },{
+		  "title": "Goodfellas",
+		  "bio": "The story of Henry Hill and his life in the mob, covering his relationship with his wife Karen Hill and his mob partners Jimmy Conway and Tommy DeVito in the Italian-American crime syndicate." 
+	  },{
+		  "title": "The Shawshank Redemption",
+		  "bio": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency." 
+	  },{
+		  "title": "12 Angry Men",
+		  "bio": "A jury holdout attempts to prevent a miscarriage of justice by forcing his colleagues to reconsider the evidence." 
 	  }
 	]
   };
