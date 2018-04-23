@@ -64,11 +64,20 @@
   
   var thriller = {
       movies: [{
-          "title": "The Godfather",
-		  "bio": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son."
+          "title": "Seven",
+		  "bio": "Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his motives."
 	  },{
-		  "title": "Schindler's List",
-		  "bio": "In German-occupied Poland during World War II, Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazi Germans."
+		  "title": "Psycho",
+		  "bio": "A Phoenix secretary embezzles $40,000 from her employer's client, goes on the run, and checks into a remote motel run by a young man under the domination of his mother."
+	  },{
+		  "title": "The Silence of the Lambs",
+		  "bio": "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+	  },{
+		  "title": "Memento",
+		  "bio": "A man juggles searching for his wife's murderer and keeping his short-term memory loss from being an obstacle."
+	  },{
+		  "title": "Inception",
+		  "bio": "A thief, who steals corporate secrets through the use of dream-sharing technology, is given the inverse task of planting an idea into the mind of a CEO."
 	  }
 	]
   };
