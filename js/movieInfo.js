@@ -123,8 +123,40 @@
 		  $(".action-entry:last").append(formattedBio);
       });
   };
+  
+  var comedy = {
+      movies: [{
+          "title": "Die Hard",
+		  "bio": "John McClane, officer of the NYPD, tries to save his wife Holly Gennaro and several others that were taken hostage by German terrorist Hans Gruber during a Christmas party at the Nakatomi Plaza in Los Angeles"
+	  },{
+		  "title": "The Dark Knight",
+		  "bio": "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham, the Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice."
+	  },{
+		  "title": "The Avengers",
+		  "bio": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity."
+	  },{
+		  "title": "Raiders of the Lost Ark",
+		  "bio": "Archaeologist and adventurer Indiana Jones is hired by the U.S. government to find the Ark of the Covenant before the Nazis."
+	  },{
+		  "title": "Mad Max : Fury Road",
+		  "bio": " A woman rebels against a tyrannical ruler in postapocalyptic Australia in search for her home-land with the help of a group of female prisoners, a psychotic worshipper, and a drifter named Max."
+	  }
+	]
+  };
+  comedy.display = function() {
+      comedy.movies.forEach(function(movie) {
+          $("#comedy").append(HTMLcomedyStart);
+		  
+		  var formattedTitle = HTMLmovieTitle.replace(data, movie.title);
+          var formattedBio = HTMLmovieBio.replace(data, movie.bio);
+		  
+		  $(".comedy-entry:last").append(formattedTitle);
+		  $(".comedy-entry:last").append(formattedBio);
+      });
+  };
 
   banner.display();
   drama.display();
   action.display();
   thriller.display();
+  comedy.display();

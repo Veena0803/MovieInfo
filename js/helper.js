@@ -16,3 +16,5 @@ var HTMLmovieBio = '<p><br>%data%</p><hr/>';
 var HTMLactionStart = '<div class="action-entry"></div>';
 
 var HTMLthrillerStart = '<div class="thriller-entry"></div>';
+
+var HTMLcomedyStart = '<div class="comedy-entry"></div>';

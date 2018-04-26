@@ -36,6 +36,8 @@
                             </li>
                             <li><a href="#thriller">Thriller</a>
                             </li>
+							<li><a href="#comedy">Comedy</a>
+                            </li>
                         </ul>
                     </div>
                 </nav>
@@ -50,6 +52,10 @@
                 <div id="thriller" class='gray'>
                     <a name="thriller"></a>
                     <h2>Thriller</h2>
+                </div>
+				<div id="comedy" class='gray'>
+                    <a name="comedy"></a>
+                    <h2>Comedy</h2>
                 </div>
             </div>
             <div class="footer">
@@ -81,6 +87,9 @@
             }
             if (document.getElementsByClassName('action-entry').length === 0) {
                 document.getElementById('action').style.display = 'none';
+            }
+			if (document.getElementsByClassName('comedy-entry').length === 0) {
+                document.getElementById('comedy').style.display = 'none';
             }
             if (document.getElementsByClassName('flex-item').length === 0) {
                 document.getElementById('letsConnect').style.display = 'none';
