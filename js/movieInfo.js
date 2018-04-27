@@ -108,7 +108,7 @@
 		  "bio": "Archaeologist and adventurer Indiana Jones is hired by the U.S. government to find the Ark of the Covenant before the Nazis."
 	  },{
 		  "title": "Mad Max : Fury Road",
-		  "bio": " A woman rebels against a tyrannical ruler in postapocalyptic Australia in search for her home-land with the help of a group of female prisoners, a psychotic worshipper, and a drifter named Max."
+		  "bio": "A woman rebels against a tyrannical ruler in postapocalyptic Australia in search for her home-land with the help of a group of female prisoners, a psychotic worshipper, and a drifter named Max."
 	  }
 	]
   };
@@ -126,20 +126,20 @@
   
   var comedy = {
       movies: [{
-          "title": "Die Hard",
-		  "bio": "John McClane, officer of the NYPD, tries to save his wife Holly Gennaro and several others that were taken hostage by German terrorist Hans Gruber during a Christmas party at the Nakatomi Plaza in Los Angeles"
+          "title": "Ghostbusters",
+		  "bio": "Three former parapsychology professors set up shop as a unique ghost removal service."
 	  },{
-		  "title": "The Dark Knight",
-		  "bio": "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham, the Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice."
+		  "title": "Airplane",
+		  "bio": "A man afraid to fly must ensure that a plane lands safely after the pilots become sick."
 	  },{
-		  "title": "The Avengers",
-		  "bio": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity."
+		  "title": "The Hangover",
+		  "bio": "Three buddies wake up from a bachelor party in Las Vegas, with no memory of the previous night and the bachelor missing. They make their way around the city in order to find their friend before his wedding."
 	  },{
-		  "title": "Raiders of the Lost Ark",
-		  "bio": "Archaeologist and adventurer Indiana Jones is hired by the U.S. government to find the Ark of the Covenant before the Nazis."
+		  "title": "Anchorman",
+		  "bio": "Ron Burgundy is San Diego's top-rated newsman in the male-dominated broadcasting of the 1970s, but that's all about to change for Ron and his cronies when an ambitious woman is hired as a new anchor."
 	  },{
-		  "title": "Mad Max : Fury Road",
-		  "bio": " A woman rebels against a tyrannical ruler in postapocalyptic Australia in search for her home-land with the help of a group of female prisoners, a psychotic worshipper, and a drifter named Max."
+		  "title": "Superbad",
+		  "bio": "Two co-dependent high school seniors are forced to deal with separation anxiety after their plan to stage a booze-soaked party goes awry."
 	  }
 	]
   };
