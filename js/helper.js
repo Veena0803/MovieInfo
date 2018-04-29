@@ -11,7 +11,7 @@ var HTMLlocation = '<li class="flex-item"><span class="orange-text">location</sp
 
 var HTMLdramaStart = '<div class="drama-entry"></div>';
 var HTMLmovieTitle = '<p><br>%data%</p>';
-var HTMLmovieBio = '<p><br>%data%</p><hr/>';
+var HTMLmovieBio = '<p><br>%data%</p>';
 
 var HTMLactionStart = '<div class="action-entry"></div>';
 
