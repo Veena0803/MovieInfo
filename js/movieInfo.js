@@ -1,6 +1,6 @@
   var banner = {
-      "name": "MovieInfo",
-      "tag": "Your one stop shop to all things movies",
+      "name": "MovieInfo - Your one stop shop to all things movies",
+      "tag": "",
       "contacts": {
           "mobile": "412-656-4646",
           "email": "iyerveena08@gmail.com",
