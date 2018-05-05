@@ -10,8 +10,8 @@ var HTMLblog = '<li class="flex-item"><span class="orange-text">blog</span><span
 var HTMLlocation = '<li class="flex-item"><span class="orange-text">location</span><span class="white-text">%data%</span>';
 
 var HTMLdramaStart = '<div class="drama-entry"></div>';
-var HTMLmovieTitle = '<p><br>%data%</p>';
-var HTMLmovieBio = '<p><br>%data%</p>';
+var HTMLmovieTitle = '<strong><p><br>%data%</p></strong>';
+var HTMLmovieBio = '<p><br>%data%</p><hr>';
 
 var HTMLactionStart = '<div class="action-entry"></div>';
 
